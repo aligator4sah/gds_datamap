@@ -6,17 +6,25 @@ import { AppComponent } from './app.component';
 import { MatSliderModule } from '@angular/material/slider';
 import { SearchComponent } from './search/search.component';
 import { FormsModule } from '@angular/forms';
+import {MatInputModule} from '@angular/material/input';
+import {MatCardModule} from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
+import { DataToolPlatformComponent } from './data-tool-platform/data-tool-platform.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SearchComponent
+    SearchComponent,
+    DataToolPlatformComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    MatSliderModule
+    MatSliderModule,
+    MatInputModule,
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
