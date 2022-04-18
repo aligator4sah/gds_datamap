@@ -10,12 +10,16 @@ import {MatInputModule} from '@angular/material/input';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import { DataToolPlatformComponent } from './data-tool-platform/data-tool-platform.component';
+import { WorkflowComponent } from './workflow/workflow.component';
+import { FilterComponent } from './filter/filter.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchComponent,
-    DataToolPlatformComponent
+    DataToolPlatformComponent,
+    WorkflowComponent,
+    FilterComponent
   ],
   imports: [
     BrowserModule,
